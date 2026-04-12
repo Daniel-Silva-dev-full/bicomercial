@@ -3,8 +3,7 @@
 ---
 
 ## 1. variacao_percentual
-
-Calcula a variação percentual entre dois valores (atual vs anterior).
+Calcula a variação percentual entre dois valores (atual vs anterior) podendo ser utilizada em DoD, MoM, YoY.
 
 ### Código
 ```DAX
@@ -22,7 +21,6 @@ FUNCTION variacao_percentual = (
 ---
 
 ## formatar_numero
-
 Formata valores numéricos em escala monetária.
 
 ### Código
@@ -46,7 +44,6 @@ FUNCTION formatar_numero = (
 ---
 
 ## status_meta
-
 Classifica o desempenho com base no percentual da meta.
 
 ### Código
@@ -65,7 +62,6 @@ FUNCTION status_meta = (
 ---
 
 ## seta_delta_formatada
-
 Adiciona indicador visual de seta.
 
 ### Código
@@ -82,7 +78,6 @@ FUNCTION seta_delta_formatada = (
 ---
 
 ## categorizacao_prazo
-
 Classifica prazos por categoria.
 
 ### Código
@@ -103,10 +98,9 @@ FUNCTION categorizacao_prazo = (
 ---
 
 ## titulo_com_data
-
 Gera as datas min e max e pode ser concatenada com os titulos.
 
-### 💻 Código
+### Código
 ```DAX
 FUNCTION titulo_com_data = (
     dt_min : DATETIME,
